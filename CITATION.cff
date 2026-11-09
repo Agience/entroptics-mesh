@@ -19,8 +19,8 @@ identifiers:
     value: "10.5281/zenodo.24068201"
     description: "Concept DOI (all versions)"
   - type: doi
-    value: "10.5281/zenodo.24068202"
-    description: "Version DOI - v0.1.0"
+    value: "10.5281/zenodo.24070676"
+    description: "Version DOI - v0.1.1"
 keywords:
   - mesh networking
   - software-defined radio
