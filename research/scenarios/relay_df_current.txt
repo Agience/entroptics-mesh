@@ -1,0 +1,8 @@
+# Decode-and-forward vs plain relaying, CURRENT waveform (relay_df_current.py).
+# 3-node chain, 6 km hops, 2400-byte message (k = 6), shared 2.0 Msps band; real entroptics-rf IQ.
+
+arm                     delivered  bursts (mean)  slot med
+plain x3                   8/8              31.0        17
+plain x2                   7/8              21.0        17
+decode-forward x1.5        8/8              18.0        14
+decode-forward x2          8/8              21.0        14

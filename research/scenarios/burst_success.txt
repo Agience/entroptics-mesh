@@ -1,0 +1,9 @@
+snr   4.0 dB: geometry found 96/100, frame decoded 0/100
+snr   6.0 dB: geometry found 99/100, frame decoded 27/100
+snr   7.0 dB: geometry found 100/100, frame decoded 76/100
+snr   8.0 dB: geometry found 100/100, frame decoded 94/100
+snr   9.0 dB: geometry found 100/100, frame decoded 99/100
+snr  10.0 dB: geometry found 100/100, frame decoded 100/100
+snr  12.0 dB: geometry found 100/100, frame decoded 100/100
+snr  14.0 dB: geometry found 100/100, frame decoded 100/100
+snr  16.0 dB: geometry found 100/100, frame decoded 100/100

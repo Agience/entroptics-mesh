@@ -1,0 +1,19 @@
+# Fleet showcase (research/showcase/fleet_showcase.py), real entroptics-rf IQ on a 22-core server, 7 epochs,
+# relay budget x3 (adopted default) vs x2.  3 seeds.  Measured 2026-10-17.
+#   x3: research/access/real.py showcase adopted <seed> 0   (fresh=3, the default)
+#   x2: research/scenarios/showcase_budget.py 2 <seed> 3    (fresh=2, only Policy.fresh changed)
+# Every message is k=1 (48-B telemetry, 160-B UDP through the tunnel): the budget is 3 vs 2 fresh
+# symbols per relay forward.  Latency median/p90 over delivered items; b/d = bursts per delivered.
+
+seed   budget  delivered   lat med / p90 ms   <=100 / <=200 ms   bursts   b/d
+1      x3        70/70        88 / 232           0.53 / 0.80       390     5.57
+1      x2        70/70        64 / 201           0.67 / 0.89       310     4.43
+2      x3        70/70        76 / 232           0.61 / 0.87       385     5.50
+2      x2        70/70        52 / 170           0.76 / 0.91       310     4.43
+3      x3        70/70        80 / 216           0.59 / 0.84       371     5.30
+3      x2        70/70        72 / 185           0.66 / 0.91       304     4.34
+---    x3       210/210    81 med / 232 p90      0.58 / 0.84      1146     5.46
+---    x2       210/210    63 med / 185 p90      0.70 / 0.91       924     4.40
+
+# x2 delivers every item at both budgets; it cuts total bursts ~19%, median latency ~22%,
+# p90 latency ~20%, and raises the fraction delivered within 200 ms from 0.84 to 0.91.

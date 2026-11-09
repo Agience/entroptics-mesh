@@ -1,0 +1,14 @@
+chain  seed 1: delivered True  slot 2 = 8 ms  bursts 4 (a 1, b 3)  acked 1  fast 7/16  cpu ms/slot mean/max per node 395/1469 189/1864 747/2785  slot 3.95 ms
+chain  seed 2: delivered True  slot 2 = 8 ms  bursts 4 (a 1, b 3)  acked 1  fast 7/16  cpu ms/slot mean/max per node 571/1945 180/1421 803/1994  slot 3.95 ms
+chain  seed 3: delivered True  slot 1 = 4 ms  bursts 4 (a 1, b 3)  acked 1  fast 7/16  cpu ms/slot mean/max per node 921/1724 300/1475 1178/1805  slot 3.95 ms
+chain  seed 4: delivered True  slot 2 = 8 ms  bursts 5 (a 2, b 3)  acked 0  fast 8/20  cpu ms/slot mean/max per node 660/1601 392/1487 1215/2249  slot 3.95 ms
+chain  seed 5: delivered True  slot 4 = 16 ms  bursts 5 (a 2, b 3)  acked 0  fast 8/20  cpu ms/slot mean/max per node 372/1517 242/1386 655/1535  slot 3.95 ms
+chain  seed 6: delivered True  slot 2 = 8 ms  bursts 5 (a 2, b 3)  acked 0  fast 8/20  cpu ms/slot mean/max per node 286/1113 191/1279 498/1219  slot 3.95 ms
+switch seed 1: msg1 True 0 ms  msg2 (after switch) True 0 ms  blind 1/1 in 2.18 s  rescans 1  geoms [('seeded', 0.5), ('seeded', 0.5), ('blind', 1.0)]  cpu ms/slot mean/max 2/4 1091/3940
+switch seed 2: msg1 True 0 ms  msg2 (after switch) True 0 ms  blind 1/1 in 2.30 s  rescans 1  geoms [('seeded', 0.5), ('seeded', 0.5), ('blind', 1.0)]  cpu ms/slot mean/max 2/4 1117/3990
+switch seed 3: msg1 True 0 ms  msg2 (after switch) True 0 ms  blind 1/1 in 3.01 s  rescans 1  geoms [('seeded', 0.5), ('seeded', 0.5), ('blind', 1.0)]  cpu ms/slot mean/max 2/4 1514/5306
+switch seed 4: msg1 True 0 ms  msg2 (after switch) True 0 ms  blind 1/1 in 4.31 s  rescans 1  geoms [('seeded', 0.5), ('seeded', 0.5), ('blind', 1.0)]  cpu ms/slot mean/max 10/22 3896/8076
+switch seed 5: msg1 True 0 ms  msg2 (after switch) True 0 ms  blind 1/1 in 3.84 s  rescans 1  geoms [('seeded', 0.5), ('seeded', 0.5), ('blind', 1.0)]  cpu ms/slot mean/max 2/4 2188/7022
+switch seed 6: msg1 True 0 ms  msg2 (after switch) True 0 ms  blind 1/1 in 4.21 s  rescans 1  geoms [('seeded', 0.5), ('seeded', 0.5), ('blind', 1.0)]  cpu ms/slot mean/max 18/32 3879/7247
+chain delivered 6/6, latency median 8 ms
+switch delivered 6/6, msg2 latency median 0 ms

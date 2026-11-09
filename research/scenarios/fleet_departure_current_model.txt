@@ -1,0 +1,22 @@
+t=    0s lead  0.00 km: base GOT (slot 0, 4 bursts) snr lead->base   49.2  lead->R3  98.0  R3->base  49.2 dB
+t=   25s lead  1.50 km: base GOT (slot 0, 4 bursts) snr lead->base   24.8  lead->R3  98.0  R3->base  24.8 dB
+t=   50s lead  3.00 km: base GOT (slot 0, 4 bursts) snr lead->base   18.8  lead->R3  98.0  R3->base  18.8 dB
+t=   75s lead  4.50 km: base GOT (slot 0, 4 bursts) snr lead->base   15.3  lead->R3  98.0  R3->base  15.3 dB
+t=  100s lead  6.00 km: base GOT (slot 0, 4 bursts) snr lead->base   12.8  lead->R3  98.0  R3->base  12.8 dB
+t=  125s lead  7.50 km: base GOT (slot 0, 4 bursts) snr lead->base   10.8  lead->R3  98.0  R3->base  10.8 dB
+t=  150s lead  9.00 km: base GOT (slot 0, 4 bursts) snr lead->base    9.2  lead->R3  24.8  R3->base  10.8 dB
+t=  175s lead 10.50 km: base GOT (slot 0, 4 bursts) snr lead->base    7.9  lead->R3  18.8  R3->base  10.8 dB
+t=  200s lead 12.00 km: base GOT (slot 0, 4 bursts) snr lead->base    6.7  lead->R3  15.3  R3->base  10.8 dB
+t=  225s lead 13.50 km: base GOT (slot 0, 4 bursts) snr lead->base    5.7  lead->R3  12.8  R3->base  10.8 dB
+t=  250s lead 15.00 km: base GOT (slot 0, 4 bursts) snr lead->base    4.8  lead->R3  10.8  R3->base  10.8 dB
+t=  275s lead 16.50 km: base GOT (slot 0, 4 bursts) snr lead->base    4.0  lead->R3   9.2  R3->base  10.8 dB
+t=  300s lead 18.00 km: base GOT (slot 0, 4 bursts) snr lead->base    3.2  lead->R3   7.9  R3->base  10.8 dB
+t=  325s lead 19.50 km: base GOT (slot 0, 4 bursts) snr lead->base    2.5  lead->R3   6.7  R3->base  10.8 dB
+t=  350s lead 21.00 km: base GOT (slot 0, 4 bursts) snr lead->base    1.9  lead->R3   5.7  R3->base  10.8 dB
+t=  375s lead 22.50 km: base GOT (slot 0, 4 bursts) snr lead->base    1.3  lead->R3   4.8  R3->base  10.8 dB
+t=  400s lead 24.00 km: base GOT (slot 1, 4 bursts) snr lead->base    0.7  lead->R3   4.0  R3->base  10.8 dB
+t=  425s lead 25.50 km: base GOT (slot 0, 4 bursts) snr lead->base    0.2  lead->R3   3.2  R3->base  10.8 dB
+t=  450s lead 27.00 km: base GOT (slot 2, 6 bursts) snr lead->base   -0.3  lead->R3   2.5  R3->base  10.8 dB
+t=  475s lead 28.50 km: base GOT (slot 4, 6 bursts) snr lead->base   -0.8  lead->R3   1.9  R3->base  10.8 dB
+
+20/20 delivered; last delivery at 28.50 km [0s]

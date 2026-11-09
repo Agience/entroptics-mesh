@@ -1,0 +1,19 @@
+# Passive-ack airtime, CURRENT node runtime (passive_ack_current.py).
+# 3-node chain O->A->F, 9 km hops, 2400-byte message (k=6).
+
+
+## capture model (ModelRun)
+
+origin redundancy  passive ack  delivered  bursts (mean) origin b. lat med ms
+x3                         off    30/30             36.0      18.0        116
+x3                          on    30/30             25.1       7.1        116
+x1.5                       off    30/30             27.0       9.0        116
+x1.5                        on    30/30             25.1       7.1        116
+
+## real IQ (FleetRun)
+
+origin redundancy  passive ack  delivered  bursts (mean) origin b. lat med ms
+x3                         off    10/10             36.0      18.0         96
+x3                          on    10/10             24.7       6.7         96
+x1.5                       off    10/10             27.0       9.0         96
+x1.5                        on    10/10             24.7       6.7         96

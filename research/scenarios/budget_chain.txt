@@ -1,0 +1,4 @@
+budget    0 ms: delivered True (slot 26), bursts 16, expired 0, slot 4.71 ms
+budget   40 ms: delivered False (slot None), bursts 5, expired 4, slot 4.71 ms
+budget   60 ms: delivered False (slot None), bursts 6, expired 12, slot 4.71 ms
+budget  200 ms: delivered True (slot 26), bursts 16, expired 0, slot 4.71 ms

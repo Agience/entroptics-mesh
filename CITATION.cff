@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it."
+title: "Entroptics-Mesh: a reply-free radio mesh over a keyed-aperture physical layer"
+abstract: "A one-way, parameter-free radio mesh over the entroptics-rf physical layer: no acks, no handshakes and nothing pre-shared. Reliability is forward (convolutional FEC inside a packet, fountain coding across packets, decode-and-forward relaying over more than one path), every transmission parameter is measured by the receiver, and IP traffic is carried to an anycast gateway. Encryption, frequency agility and interference handling are pluggable providers. Includes the paper, the implementation, an emulated air for multi-node scenarios, and the scenario results."
+type: software
+authors:
+  - given-names: Ikailo John
+    family-names: Sessford
+    email: john@ikailo.com
+    affiliation: Ikailo
+repository-code: "https://github.com/Agience/entroptics-mesh"
+url: "https://agience.ai"
+license: AGPL-3.0-only
+version: 0.1.0
+date-released: "2026-11-08"
+keywords:
+  - mesh networking
+  - software-defined radio
+  - fountain codes
+  - decode-and-forward
+  - reply-free
+  - parameter-free
+  - entroptics
+references:
+  - type: software
+    title: "Entroptics"
+    abstract: "Read any 2-D signal as a finite optical aperture whose resolution is fixed by the signal's own entropy."
+    authors:
+      - given-names: Ikailo John
+        family-names: Sessford
+        affiliation: Ikailo
+    version: 0.2.10
+    doi: "10.5281/zenodo.21273400"
+    repository-code: "https://github.com/Agience/entroptics"
+    license: Apache-2.0
+  - type: software
+    title: "Entroptics-RF"
+    authors:
+      - given-names: Ikailo John
+        family-names: Sessford
+        affiliation: Ikailo
+    version: 0.1.0
+    repository-code: "https://github.com/Agience/entroptics-rf"
+    license: AGPL-3.0-only

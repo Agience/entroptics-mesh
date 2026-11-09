@@ -1,0 +1,27 @@
+{
+  "fileType": "Plan",
+  "version": 1,
+  "groundStation": "entroptics-mesh/harness",
+  "mission": {
+    "version": 2,
+    "firmwareType": 12,
+    "vehicleType": 2,
+    "cruiseSpeed": 15,
+    "hoverSpeed": 5,
+    "plannedHomePosition": [
+      45.0,
+      -75.0,
+      100.0
+    ],
+    "items": []
+  },
+  "geoFence": {
+    "circles": [],
+    "polygons": [],
+    "version": 2
+  },
+  "rallyPoints": {
+    "points": [],
+    "version": 2
+  }
+}

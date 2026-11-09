@@ -1,0 +1,18 @@
+
+## real IQ (FleetRun), hops 9 km, 1 x 48-byte message (k = 1)
+
+arm              budget   delivered  lat med/p90 ms slots med/p90 bursts/deliv bursts/run  relay cancel  defer
+anycast_alive        x2    10/10        16/25           2/3            3.40        3.4    2.0    2.0    0.7
+anycast_kill         x2    10/10        16/25           2/3            3.40        3.4    2.0    2.0    0.7
+unicast_kill         x2     0/10       nan/nan        nan/nan         54.00        5.4    4.0    2.0    1.0
+ALL LOSS ARMS        x2    10/10        16/25           2/3            3.40        3.4
+ALL ALIVE            x2    10/10        16/25           2/3            3.40        3.4
+
+## real IQ (FleetRun), hops 9 km, 1 x 2400-byte message (k = 6)
+
+arm              budget   delivered  lat med/p90 ms slots med/p90 bursts/deliv bursts/run  relay cancel  defer
+anycast_alive        x2    10/10       200/243         25/30          24.70       24.7   18.1   17.9    4.8
+anycast_kill         x2    10/10       200/243         25/30          24.70       24.7   18.1   17.9    4.8
+unicast_kill         x2     0/10       nan/nan        nan/nan        426.00       42.6   36.0   18.0   11.0
+ALL LOSS ARMS        x2    10/10       200/243         25/30          24.70       24.7
+ALL ALIVE            x2    10/10       200/243         25/30          24.70       24.7

@@ -1,0 +1,48 @@
+== research/showcase/fleet_showcase_before.json
+delivered 31/70; bursts 671 in 288 slots
+bursts by kind: {'announce @2.4 MHz': 81, 'own @2.4 MHz': 125, 'relay by D @1.2 MHz': 382, 'relay by R @1.2 MHz': 83}
+bursts per slot: {0: 25, 1: 70, 2: 77, 3: 58, 4: 28, 5: 20, 6: 9, 7: 1}
+
+in-band SINR margin over the mode's threshold vs read (every burst x receiver):
+  [-12, -9) dB  n= 694  gated 0.03  read when not gated 0.00 (n=673)
+  [ -9, -6) dB  n= 896  gated 0.02  read when not gated 0.00 (n=874)
+  [ -6, -3) dB  n= 800  gated 0.05  read when not gated 0.01 (n=761)
+  [ -3,  0) dB  n= 526  gated 0.02  read when not gated 0.58 (n=513)
+  [  0,  3) dB  n= 418  gated 0.11  read when not gated 0.91 (n=372)
+  [  3,  6) dB  n= 280  gated 0.17  read when not gated 0.97 (n=233)
+  [  6,  9) dB  n= 209  gated 0.33  read when not gated 0.98 (n=140)
+  [  9, 12) dB  n= 172  gated 0.44  read when not gated 0.98 (n=96)
+  [ 12, 15) dB  n= 145  gated 0.34  read when not gated 1.00 (n=95)
+  [ 15, 18) dB  n=  91  gated 0.48  read when not gated 1.00 (n=47)
+  [ 18, 21) dB  n=  54  gated 0.28  read when not gated 1.00 (n=39)
+  [ 21, 24) dB  n=  54  gated 0.67  read when not gated 1.00 (n=18)
+  [ 24, 27) dB  n=  91  gated 0.75  read when not gated 1.00 (n=23)
+  [ 27, 30) dB  n= 127  gated 0.44  read when not gated 1.00 (n=71)
+  [ 30, 33) dB  n= 121  gated 0.18  read when not gated 1.00 (n=99)
+
+origin bursts (HOME), read by anyone: {('with others', True): 24, ('with others', False): 91, ('alone', True): 10}
+HOME messages by fate of their origin bursts: {'read by someone': 32, 'lost: SINR below threshold at every receiver': 26, 'lost: margin >= 0 somewhere, not read': 12}
+== research/showcase/fleet_showcase.json
+delivered 70/70; bursts 390 in 397 slots
+bursts by kind: {'own @2.4 MHz': 76, 'announce @2.4 MHz': 81, 'relay by D @1.2 MHz': 174, 'relay by R @1.2 MHz': 59}
+bursts per slot: {0: 23, 1: 358, 2: 16}
+
+in-band SINR margin over the mode's threshold vs read (every burst x receiver):
+  [-12, -9) dB  n=  28  gated 0.00  read when not gated 0.00 (n=28)
+  [ -9, -6) dB  n=  19  gated 0.00  read when not gated 0.00 (n=19)
+  [ -6, -3) dB  n=  27  gated 0.00  read when not gated 0.00 (n=27)
+  [ -3,  0) dB  n=  53  gated 0.00  read when not gated 0.74 (n=53)
+  [  0,  3) dB  n= 166  gated 0.00  read when not gated 0.96 (n=166)
+  [  3,  6) dB  n= 199  gated 0.00  read when not gated 0.98 (n=199)
+  [  6,  9) dB  n= 229  gated 0.00  read when not gated 1.00 (n=229)
+  [  9, 12) dB  n= 383  gated 0.00  read when not gated 0.99 (n=383)
+  [ 12, 15) dB  n= 365  gated 0.00  read when not gated 1.00 (n=365)
+  [ 15, 18) dB  n= 239  gated 0.00  read when not gated 1.00 (n=239)
+  [ 18, 21) dB  n= 206  gated 0.00  read when not gated 1.00 (n=206)
+  [ 21, 24) dB  n= 220  gated 0.00  read when not gated 1.00 (n=220)
+  [ 24, 27) dB  n= 417  gated 0.00  read when not gated 1.00 (n=417)
+  [ 27, 30) dB  n= 632  gated 0.00  read when not gated 1.00 (n=632)
+  [ 30, 33) dB  n= 592  gated 0.00  read when not gated 1.00 (n=592)
+
+origin bursts (HOME), read by anyone: {('with others', False): 2, ('alone', True): 69, ('with others', True): 5}
+HOME messages by fate of their origin bursts: {'read by someone': 70}

@@ -1,0 +1,515 @@
+{
+ "wall": 43.15241503715515,
+ "results": [
+  {
+   "M": 8,
+   "rate": "1/2",
+   "snr": 8,
+   "packets": 400,
+   "fails": 372,
+   "per": 0.93,
+   "undetected": 0,
+   "goodput": 0.09308510638297866
+  },
+  {
+   "M": 8,
+   "rate": "1/2",
+   "snr": 10,
+   "packets": 400,
+   "fails": 24,
+   "per": 0.06,
+   "undetected": 0,
+   "goodput": 1.25
+  },
+  {
+   "M": 8,
+   "rate": "1/2",
+   "snr": 12,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.3297872340425532
+  },
+  {
+   "M": 8,
+   "rate": "1/2",
+   "snr": 14,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.3297872340425532
+  },
+  {
+   "M": 8,
+   "rate": "1/2",
+   "snr": 16,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.3297872340425532
+  },
+  {
+   "M": 8,
+   "rate": "1/2",
+   "snr": 18,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.3297872340425532
+  },
+  {
+   "M": 8,
+   "rate": "1/2",
+   "snr": 20,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.3297872340425532
+  },
+  {
+   "M": 8,
+   "rate": "1/2",
+   "snr": 22,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.3297872340425532
+  },
+  {
+   "M": 8,
+   "rate": "2/3",
+   "snr": 8,
+   "packets": 40,
+   "fails": 40,
+   "per": 1.0,
+   "undetected": 0,
+   "goodput": 0.0
+  },
+  {
+   "M": 8,
+   "rate": "2/3",
+   "snr": 10,
+   "packets": 400,
+   "fails": 387,
+   "per": 0.9675,
+   "undetected": 0,
+   "goodput": 0.05803571428571423
+  },
+  {
+   "M": 8,
+   "rate": "2/3",
+   "snr": 12,
+   "packets": 400,
+   "fails": 41,
+   "per": 0.1025,
+   "undetected": 0,
+   "goodput": 1.6026785714285714
+  },
+  {
+   "M": 8,
+   "rate": "2/3",
+   "snr": 14,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.7857142857142858
+  },
+  {
+   "M": 8,
+   "rate": "2/3",
+   "snr": 16,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.7857142857142858
+  },
+  {
+   "M": 8,
+   "rate": "2/3",
+   "snr": 18,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.7857142857142858
+  },
+  {
+   "M": 8,
+   "rate": "2/3",
+   "snr": 20,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.7857142857142858
+  },
+  {
+   "M": 8,
+   "rate": "2/3",
+   "snr": 22,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.7857142857142858
+  },
+  {
+   "M": 8,
+   "rate": "3/4",
+   "snr": 8,
+   "packets": 40,
+   "fails": 40,
+   "per": 1.0,
+   "undetected": 0,
+   "goodput": 0.0
+  },
+  {
+   "M": 8,
+   "rate": "3/4",
+   "snr": 10,
+   "packets": 40,
+   "fails": 40,
+   "per": 1.0,
+   "undetected": 0,
+   "goodput": 0.0
+  },
+  {
+   "M": 8,
+   "rate": "3/4",
+   "snr": 12,
+   "packets": 400,
+   "fails": 312,
+   "per": 0.78,
+   "undetected": 0,
+   "goodput": 0.42968749999999994
+  },
+  {
+   "M": 8,
+   "rate": "3/4",
+   "snr": 14,
+   "packets": 400,
+   "fails": 8,
+   "per": 0.02,
+   "undetected": 0,
+   "goodput": 1.9140625
+  },
+  {
+   "M": 8,
+   "rate": "3/4",
+   "snr": 16,
+   "packets": 400,
+   "fails": 1,
+   "per": 0.0025,
+   "undetected": 0,
+   "goodput": 1.9482421875
+  },
+  {
+   "M": 8,
+   "rate": "3/4",
+   "snr": 18,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.953125
+  },
+  {
+   "M": 8,
+   "rate": "3/4",
+   "snr": 20,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.953125
+  },
+  {
+   "M": 8,
+   "rate": "3/4",
+   "snr": 22,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.953125
+  },
+  {
+   "M": 16,
+   "rate": "1/2",
+   "snr": 12,
+   "packets": 400,
+   "fails": 191,
+   "per": 0.4775,
+   "undetected": 0,
+   "goodput": 0.9330357142857143
+  },
+  {
+   "M": 16,
+   "rate": "1/2",
+   "snr": 14,
+   "packets": 400,
+   "fails": 7,
+   "per": 0.0175,
+   "undetected": 0,
+   "goodput": 1.7544642857142858
+  },
+  {
+   "M": 16,
+   "rate": "1/2",
+   "snr": 16,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.7857142857142858
+  },
+  {
+   "M": 16,
+   "rate": "1/2",
+   "snr": 18,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.7857142857142858
+  },
+  {
+   "M": 16,
+   "rate": "1/2",
+   "snr": 20,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.7857142857142858
+  },
+  {
+   "M": 16,
+   "rate": "1/2",
+   "snr": 22,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.7857142857142858
+  },
+  {
+   "M": 16,
+   "rate": "1/2",
+   "snr": 24,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.7857142857142858
+  },
+  {
+   "M": 16,
+   "rate": "1/2",
+   "snr": 26,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.7857142857142858
+  },
+  {
+   "M": 16,
+   "rate": "1/2",
+   "snr": 28,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 1.7857142857142858
+  },
+  {
+   "M": 16,
+   "rate": "2/3",
+   "snr": 12,
+   "packets": 40,
+   "fails": 40,
+   "per": 1.0,
+   "undetected": 0,
+   "goodput": 0.0
+  },
+  {
+   "M": 16,
+   "rate": "2/3",
+   "snr": 14,
+   "packets": 40,
+   "fails": 40,
+   "per": 1.0,
+   "undetected": 0,
+   "goodput": 0.0
+  },
+  {
+   "M": 16,
+   "rate": "2/3",
+   "snr": 16,
+   "packets": 400,
+   "fails": 275,
+   "per": 0.6875,
+   "undetected": 0,
+   "goodput": 0.7233796296296297
+  },
+  {
+   "M": 16,
+   "rate": "2/3",
+   "snr": 18,
+   "packets": 400,
+   "fails": 16,
+   "per": 0.04,
+   "undetected": 0,
+   "goodput": 2.2222222222222223
+  },
+  {
+   "M": 16,
+   "rate": "2/3",
+   "snr": 20,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 2.314814814814815
+  },
+  {
+   "M": 16,
+   "rate": "2/3",
+   "snr": 22,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 2.314814814814815
+  },
+  {
+   "M": 16,
+   "rate": "2/3",
+   "snr": 24,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 2.314814814814815
+  },
+  {
+   "M": 16,
+   "rate": "2/3",
+   "snr": 26,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 2.314814814814815
+  },
+  {
+   "M": 16,
+   "rate": "2/3",
+   "snr": 28,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 2.314814814814815
+  },
+  {
+   "M": 16,
+   "rate": "3/4",
+   "snr": 12,
+   "packets": 40,
+   "fails": 40,
+   "per": 1.0,
+   "undetected": 0,
+   "goodput": 0.0
+  },
+  {
+   "M": 16,
+   "rate": "3/4",
+   "snr": 14,
+   "packets": 40,
+   "fails": 40,
+   "per": 1.0,
+   "undetected": 0,
+   "goodput": 0.0
+  },
+  {
+   "M": 16,
+   "rate": "3/4",
+   "snr": 16,
+   "packets": 40,
+   "fails": 40,
+   "per": 1.0,
+   "undetected": 0,
+   "goodput": 0.0
+  },
+  {
+   "M": 16,
+   "rate": "3/4",
+   "snr": 18,
+   "packets": 400,
+   "fails": 99,
+   "per": 0.2475,
+   "undetected": 0,
+   "goodput": 1.9596354166666667
+  },
+  {
+   "M": 16,
+   "rate": "3/4",
+   "snr": 20,
+   "packets": 400,
+   "fails": 3,
+   "per": 0.0075,
+   "undetected": 0,
+   "goodput": 2.5846354166666665
+  },
+  {
+   "M": 16,
+   "rate": "3/4",
+   "snr": 22,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 2.6041666666666665
+  },
+  {
+   "M": 16,
+   "rate": "3/4",
+   "snr": 24,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 2.6041666666666665
+  },
+  {
+   "M": 16,
+   "rate": "3/4",
+   "snr": 26,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 2.6041666666666665
+  },
+  {
+   "M": 16,
+   "rate": "3/4",
+   "snr": 28,
+   "packets": 400,
+   "fails": 0,
+   "per": 0.0,
+   "undetected": 0,
+   "goodput": 2.6041666666666665
+  }
+ ]
+}

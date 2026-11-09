@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "entroptics-mesh"
+version = "0.1.0"
+description = "A one-way, parameter-free mesh over entroptics-rf: no acks, no handshakes, nothing pre-shared. Crypto, agility and interference handling are pluggable providers."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Ikailo John Sessford", email = "john@ikailo.com" }]
+license = "AGPL-3.0-only"
+license-files = ["LICENSE", "NOTICE", "COMMERCIAL_LICENSE.md", "PATENTS.md"]
+keywords = ["mesh", "rf", "entroptics", "fountain", "relay", "anycast"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "numpy>=2.0",          # real floor comes from entroptics-rf -> entroptics (numpy 2.0)
+    "entroptics>=0.2.10",  # the current release; phy._run delegates to entroptics.reads.level_shift_scan
+    # entroptics-rf is published on PyPI; for development, install the sibling checkouts in order
+    # (see research/PACKAGING.md).
+    "entroptics-rf>=0.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "cryptography>=42"]
+crypto = ["cryptography>=42"]   # entroptics_mesh.ext.aead (AeadCrypto)
+
+[project.urls]
+Repository = "https://github.com/Agience/entroptics-mesh"
+Issues = "https://github.com/Agience/entroptics-mesh/issues"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+packages = ["entroptics_mesh", "entroptics_mesh.emu", "entroptics_mesh.ext"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
+markers = [
+    "slow: long-running test (node/budget/link_run/emu scenarios); skip with -m 'not slow'",
+]
+pythonpath = ["src"]

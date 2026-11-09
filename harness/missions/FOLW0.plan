@@ -1,0 +1,220 @@
+{
+  "fileType": "Plan",
+  "version": 1,
+  "groundStation": "entroptics-mesh/harness",
+  "mission": {
+    "version": 2,
+    "firmwareType": 12,
+    "vehicleType": 2,
+    "cruiseSpeed": 15,
+    "hoverSpeed": 5,
+    "plannedHomePosition": [
+      45.0,
+      -75.006359164,
+      100.0
+    ],
+    "items": [
+      {
+        "type": "SimpleItem",
+        "command": 22,
+        "frame": 3,
+        "autoContinue": true,
+        "doJumpId": 1,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          45.0,
+          -75.006359164,
+          100.0
+        ]
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 3,
+        "autoContinue": true,
+        "doJumpId": 2,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          45.0,
+          -74.96820418,
+          100.0
+        ]
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 3,
+        "autoContinue": true,
+        "doJumpId": 3,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          45.0,
+          -74.930049195,
+          100.0
+        ]
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 3,
+        "autoContinue": true,
+        "doJumpId": 4,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          45.0,
+          -74.891894211,
+          100.0
+        ]
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 3,
+        "autoContinue": true,
+        "doJumpId": 5,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          45.0,
+          -74.853739227,
+          100.0
+        ]
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 3,
+        "autoContinue": true,
+        "doJumpId": 6,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          45.0,
+          -74.815584242,
+          100.0
+        ]
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 3,
+        "autoContinue": true,
+        "doJumpId": 7,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          45.0,
+          -74.777429258,
+          100.0
+        ]
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 3,
+        "autoContinue": true,
+        "doJumpId": 8,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          45.0,
+          -74.739274274,
+          100.0
+        ]
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 3,
+        "autoContinue": true,
+        "doJumpId": 9,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          45.0,
+          -74.701119289,
+          100.0
+        ]
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 3,
+        "autoContinue": true,
+        "doJumpId": 10,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          45.0,
+          -74.662964305,
+          100.0
+        ]
+      },
+      {
+        "type": "SimpleItem",
+        "command": 16,
+        "frame": 3,
+        "autoContinue": true,
+        "doJumpId": 11,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          45.0,
+          -74.62480932,
+          100.0
+        ]
+      },
+      {
+        "type": "SimpleItem",
+        "command": 20,
+        "frame": 3,
+        "autoContinue": true,
+        "doJumpId": 12,
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "geoFence": {
+    "circles": [],
+    "polygons": [],
+    "version": 2
+  },
+  "rallyPoints": {
+    "points": [],
+    "version": 2
+  }
+}

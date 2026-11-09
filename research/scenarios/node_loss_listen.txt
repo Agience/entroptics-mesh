@@ -1,0 +1,72 @@
+# Relay budget x3 vs x2 (x1.5/x2.5 reference) on the node runtime with listen before talk.
+# real IQ (FleetRun), a 22-core server, 10 seeds/cell.  Measured 2026-10-17 (research/scenarios/node_loss_listen.py; sibling share + passive ack on, only Policy.fresh varies).
+# research/scenarios/node_loss_listen.py batch real 10 8 ... --budgets 3,2 --sizes 48,2400 (hop 9 km, 1 msg)
+# Loss arms deliver identically at x3 and x2; residual sub-100% at k=6 is the LT rank tail (needs ~k+4 symbols), not node loss.
+
+## real IQ (FleetRun), hops 9 km, 1 x 48-byte message (k = 1)
+
+arm              budget   delivered  lat med/p90 ms slots med/p90 bursts/deliv bursts/run  relay cancel  defer
+diamond_alive        x3    10/10        16/25           2/3            4.40        4.4    3.0    3.0    0.8
+diamond_alive        x2    10/10        16/25           2/3            3.40        3.4    2.0    2.0    0.7
+diamond_early        x3    10/10        24/32           3/4            4.60        4.6    3.0    0.0    0.1
+diamond_early        x2    10/10        24/32           3/4            3.60        3.6    2.0    0.0    0.1
+diamond_mid0         x3    10/10        24/32           3/4            4.60        4.6    3.0    0.0    0.1
+diamond_mid0         x2    10/10        24/32           3/4            3.60        3.6    2.0    0.0    0.1
+diamond_mid          x3    10/10        16/25           2/3            4.40        4.4    3.0    2.1    0.7
+diamond_mid          x2    10/10        16/25           2/3            3.40        3.4    2.0    1.7    0.7
+tri_alive            x3    10/10        12/25           2/3            4.60        4.6    3.2    5.8    1.9
+tri_alive            x2    10/10        12/25           2/3            3.40        3.4    2.0    4.0    1.5
+tri_kill2            x3    10/10        16/33           2/4            4.50        4.5    3.0    0.0    0.2
+tri_kill2            x2    10/10        16/33           2/4            3.50        3.5    2.0    0.0    0.2
+two_stage_alive      x3    10/10        40/48           5/6            6.20        6.2    4.8    7.2    2.0
+two_stage_alive      x2    10/10        40/48           5/6            5.00        5.0    3.6    4.4    1.3
+two_stage            x3    10/10        40/73           5/9            6.10        6.1    4.5    1.5    0.6
+two_stage            x2    10/10        40/73           5/9            5.00        5.0    3.4    0.6    0.6
+single_alive         x3    10/10        32/41           4/5            4.50        4.5    3.0    0.0    0.7
+single_alive         x2    10/10        32/41           4/5            3.50        3.5    2.0    0.0    0.7
+single_kill          x3     0/10       nan/nan        nan/nan         20.00        2.0    0.0    0.0    0.0
+single_kill          x2     0/10       nan/nan        nan/nan         20.00        2.0    0.0    0.0    0.0
+anycast_alive        x3    10/10        16/25           2/3            4.40        4.4    3.0    3.0    0.7
+anycast_alive        x2    10/10        16/25           2/3            3.40        3.4    2.0    2.0    0.7
+anycast_kill         x3    10/10        16/25           2/3            4.40        4.4    3.0    3.0    0.7
+anycast_kill         x2    10/10        16/25           2/3            3.40        3.4    2.0    2.0    0.7
+unicast_kill         x3     0/10       nan/nan        nan/nan         74.00        7.4    6.0    3.0    1.8
+unicast_kill         x2     0/10       nan/nan        nan/nan         54.00        5.4    4.0    2.0    1.0
+ALL LOSS ARMS        x3    60/60        24/40           3/5            4.77        4.8
+ALL LOSS ARMS        x2    60/60        24/40           3/5            3.75        3.8
+ALL ALIVE            x3    40/40        20/40           2/5            4.90        4.9
+ALL ALIVE            x2    40/40        20/40           2/5            3.80        3.8
+
+## real IQ (FleetRun), hops 9 km, 1 x 2400-byte message (k = 6)
+
+arm              budget   delivered  lat med/p90 ms slots med/p90 bursts/deliv bursts/run  relay cancel  defer
+diamond_alive        x3    10/10       188/217         24/27          24.70       24.7   18.1   17.9    5.0
+diamond_alive        x2    10/10       188/217         24/27          18.60       18.6   12.0   12.0    3.4
+diamond_early        x3    10/10       236/285         30/36          25.00       25.0   18.0    0.0    0.4
+diamond_early        x2    10/10       236/285         30/36          19.00       19.0   12.0    0.0    0.4
+diamond_mid0         x3    10/10       236/285         30/36          25.00       25.0   18.0    0.0    0.4
+diamond_mid0         x2    10/10       236/285         30/36          19.00       19.0   12.0    0.0    0.4
+diamond_mid          x3    10/10       232/274         29/34          24.60       24.6   18.0    2.1    1.1
+diamond_mid          x2    10/10       232/274         29/34          18.60       18.6   12.0    2.1    1.1
+tri_alive            x3    10/10       168/203         21/25          24.60       24.6   18.1   35.9   10.6
+tri_alive            x2    10/10       168/203         21/25          18.60       18.6   12.1   23.9    7.5
+tri_kill2            x3    10/10       236/280         30/35          25.20       25.2   18.0    0.0    0.8
+tri_kill2            x2    10/10       236/280         30/35          19.20       19.2   12.0    0.0    0.8
+two_stage_alive      x3    10/10       292/315         36/39          31.50       31.5   24.9   47.1    7.3
+two_stage_alive      x2    10/10       292/315         36/39          25.50       25.5   18.9   29.1    5.9
+two_stage            x3    10/10       380/420         48/52          32.70       32.7   25.7   10.3    0.9
+two_stage            x2    10/10       380/420         48/52          26.70       26.7   19.7    4.3    0.9
+single_alive         x3    10/10       264/346         33/43          24.80       24.8   18.0    0.0    0.4
+single_alive         x2     9/10       256/312         32/39          20.89       18.8   12.0    0.0    0.4
+single_kill          x3     0/10       nan/nan        nan/nan         90.00        9.0    0.0    0.0    0.0
+single_kill          x2     0/10       nan/nan        nan/nan         90.00        9.0    0.0    0.0    0.0
+anycast_alive        x3    10/10       200/243         25/30          24.70       24.7   18.1   17.9    4.8
+anycast_alive        x2    10/10       200/243         25/30          18.60       18.6   12.0   12.0    3.3
+anycast_kill         x3    10/10       200/243         25/30          24.70       24.7   18.1   17.9    4.8
+anycast_kill         x2    10/10       200/243         25/30          18.60       18.6   12.0   12.0    3.3
+unicast_kill         x3     0/10       nan/nan        nan/nan        426.00       42.6   36.0   18.0   11.0
+unicast_kill         x2     0/10       nan/nan        nan/nan        306.00       30.6   24.0   12.0    5.7
+ALL LOSS ARMS        x3    60/60       240/362         30/45          26.20       26.2
+ALL LOSS ARMS        x2    60/60       240/362         30/45          20.18       20.2
+ALL ALIVE            x3    40/40       200/297         25/37          26.38       26.4
+ALL ALIVE            x2    40/40       200/297         25/37          20.32       20.3

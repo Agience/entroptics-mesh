@@ -1,0 +1,7 @@
+ftol 1e-09: ok@5dB 30/30 ok@6dB 30/30  362 ms/burst
+ftol 1e-06: ok@5dB 30/30 ok@6dB 30/30  305 ms/burst
+ftol 0.0001: ok@5dB 30/30 ok@6dB 30/30  294 ms/burst
+ftol 0.01: ok@5dB 30/30 ok@6dB 30/30  234 ms/burst
+ftol 0.1: ok@5dB 30/30 ok@6dB 30/30  204 ms/burst
+ftol 1: ok@5dB 30/30 ok@6dB 30/30  168 ms/burst
+node path (accept=, read_frame) ftol 0.01: ok@5dB 30/30 ok@6dB 30/30  187 ms/burst (receive + frame decode)
