@@ -7,12 +7,20 @@ authors:
   - given-names: Ikailo John
     family-names: Sessford
     email: john@ikailo.com
-    affiliation: Ikailo
+    affiliation: Ikailo Inc.
 repository-code: "https://github.com/Agience/entroptics-mesh"
 url: "https://agience.ai"
 license: AGPL-3.0-only
 version: 0.1.0
 date-released: "2026-11-08"
+doi: "10.5281/zenodo.24068201"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24068201"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.24068202"
+    description: "Version DOI - v0.1.0"
 keywords:
   - mesh networking
   - software-defined radio
@@ -28,17 +36,18 @@ references:
     authors:
       - given-names: Ikailo John
         family-names: Sessford
-        affiliation: Ikailo
+        affiliation: Ikailo Inc.
     version: 0.2.10
     doi: "10.5281/zenodo.21273400"
     repository-code: "https://github.com/Agience/entroptics"
     license: Apache-2.0
   - type: software
     title: "Entroptics-RF"
+    doi: "10.5281/zenodo.24068189"
     authors:
       - given-names: Ikailo John
         family-names: Sessford
-        affiliation: Ikailo
+        affiliation: Ikailo Inc.
     version: 0.1.0
     repository-code: "https://github.com/Agience/entroptics-rf"
     license: AGPL-3.0-only
