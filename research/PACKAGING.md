@@ -16,8 +16,8 @@ depends on, so pip uses the checkout instead of fetching the published release.
 | Repo | Name | Version | Python | Core runtime deps | Optional extras |
 |---|---|---|---|---|---|
 | entroptics | `entroptics` | 0.2.10 | >=3.10 | `numpy>=2.0` | `torch`, `scipy`, `test`, `figures`, `dev` |
-| entroptics-rf | `entroptics-rf` | 0.1.0 | >=3.10 | `numpy>=2.0`, `entroptics>=0.2.10`, `scipy>=1.10` | `test`, `sdr`, `rtlsdr` |
-| entroptics-mesh | `entroptics-mesh` | 0.1.0 | >=3.10 | `numpy>=2.0`, `entroptics>=0.2.10`, `entroptics-rf>=0.1` | `test`, `crypto` |
+| entroptics-rf | `entroptics-rf` | 0.1.1 | >=3.10 | `numpy>=2.0`, `entroptics>=0.2.10`, `scipy>=1.10` | `test`, `sdr`, `rtlsdr` |
+| entroptics-mesh | `entroptics-mesh` | 0.1.1 | >=3.10 | `numpy>=2.0`, `entroptics>=0.2.10`, `entroptics-rf>=0.1` | `test`, `crypto` |
 
 `numpy>=2.0` is the real floor for the whole stack: `entroptics` needs the numpy 2.0
 `numpy.linalg.svdvals` API, so rf and mesh inherit it (their metadata states 2.0 rather than an
@@ -107,7 +107,7 @@ Each repo publishes to PyPI from its `.github/workflows/publish.yml` (trusted pu
 GitHub release is published.
 
 - **entroptics** `v0.2.10` — the PyPI release rf and mesh depend on.
-- **entroptics-rf** `v0.1.0` — sdist + wheel (`python -m build`); README present;
+- **entroptics-rf** `v0.1.1` — sdist + wheel (`python -m build`); README present;
   console script wired. AGPL-3.0-only or commercial licence declared.
-- **entroptics-mesh** `v0.1.0` — sdist + wheel (`python -m build`). **Licence: AGPL-3.0-only or commercial**
+- **entroptics-mesh** `v0.1.1` — sdist + wheel (`python -m build`). **Licence: AGPL-3.0-only or commercial**
   (declared in `pyproject.toml` + `LICENSE`).

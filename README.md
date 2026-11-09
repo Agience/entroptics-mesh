@@ -4,6 +4,8 @@ A one-way, parameter-free mesh over the [entroptics-rf](https://github.com/Agien
 
 Dependency graph: [entroptics](https://github.com/Agience/entroptics) &larr; entroptics-rf &larr; entroptics-mesh.
 
+Paper: [research/PAPER.pdf](research/PAPER.pdf) (two-column; source in [research/PAPER.tex](research/PAPER.tex), built from research/PAPER.md by `research/typeset/build_paper.py`).
+
 New to the stack? Start with [ARCHITECTURE.md](docs/ARCHITECTURE.md) — the system overview, the
 end-to-end data path, the provider model, a map of every document, and the current maturity.
 

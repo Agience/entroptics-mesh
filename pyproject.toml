@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "entroptics-mesh"
-version = "0.1.0"
+version = "0.1.1"
 description = "A one-way, parameter-free mesh over entroptics-rf: no acks, no handshakes, nothing pre-shared. Crypto, agility and interference handling are pluggable providers."
 readme = "README.md"
 requires-python = ">=3.10"

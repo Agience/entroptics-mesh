@@ -11,8 +11,8 @@ authors:
 repository-code: "https://github.com/Agience/entroptics-mesh"
 url: "https://agience.ai"
 license: AGPL-3.0-only
-version: 0.1.0
-date-released: "2026-11-08"
+version: 0.1.1
+date-released: "2026-11-09"
 doi: "10.5281/zenodo.24068201"
 identifiers:
   - type: doi

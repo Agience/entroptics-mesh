@@ -4,6 +4,8 @@
 
 **Ikailo John Sessford**, Ikailo Inc., `john@ikailo.com`
 
+*Pre-print. November 2026.*
+
 **Companion papers.** This builds on *Entroptics-RF* ([`entroptics-rf research/PAPER.md`](https://github.com/Agience/entroptics-rf/blob/main/research/PAPER.md), cited §RF-n) and through it on *Entroptics* ([`entroptics research/PAPER.md`](https://github.com/Agience/entroptics/blob/main/research/PAPER.md)). Sections here are written §M-n. Nothing here re-derives the PHY. Where the mesh depends on a PHY read, the read is named and its measured cost is quoted.
 
 **Status markers.** **[measured]** means a number from a run whose output is on disk: in a project repository. Some measured numbers have no output file in this repository; §M-13 marks their source as "not in this repository". **[model]** means arithmetic on stated assumptions. Every number has a pointer in §M-13.
